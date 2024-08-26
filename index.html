@@ -75,7 +75,7 @@
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
   <script>
-  let url="https://cors-anywhere.herokuapp.com/http://universities.hipolabs.com/search?name=";
+  let url="https://api.allorigins.win/raw?url=" + encodeURIComponent("http://universities.hipolabs.com/search?name=")";
     let btn=document.querySelector(".searchbutton");
      
     btn.addEventListener("click", async ()=>{
